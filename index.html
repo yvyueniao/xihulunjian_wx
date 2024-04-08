@@ -1523,7 +1523,7 @@
                         "signOutText": "退出登录"
                     },
                     "mobile": {
-                        "logo": "https://img.alicdn.com/imgextra/i3/O1CN01PKdpPm1szr7AuydXX_!!6000000005838-2-tps-194-20.png",
+                        "logo": "images/logo.png",
                         "logoUrl": "https://yunqi.aliyun.com",
                         "english": {
                             "visibile": false,
@@ -1543,10 +1543,10 @@
                             "childs": [],
                             "isNeedLogin": false
                         }, {
-                            "name": "日程",
+                            "name": "介绍",
                             "icon": "https://img.alicdn.com/imgextra/i4/O1CN01v2hLwG1kjoJc5h8oo_!!6000000004720-2-tps-48-48.png",
                             "iconSelect": "https://img.alicdn.com/imgextra/i3/O1CN01VxR8ZA2A15ea7yFrC_!!6000000008142-2-tps-48-48.png",
-                            "url": "pages/agenda.html"
+                            "url": "pages/about.html"
                         }, {
                             "name": "嘉宾",
                             "icon": "https://img.alicdn.com/imgextra/i3/O1CN01Nxr54L1eRaruq0bpM_!!6000000003868-2-tps-48-48.png",
@@ -4888,30 +4888,6 @@
     </script>
 
 
-
-<script>
-    // 获取关闭按钮元素
-    var closeButton = document.querySelector('.fl-dialog-close');
-  
-    // 监听关闭按钮的点击事件
-    closeButton.addEventListener('click', function() {
-      // 隐藏弹窗的逻辑，这里假设你使用 jQuery 来操作 DOM
-      $('.aliyun-login-component-wrapper').hide();
-    });
-
-    var loginBtn = document.querySelector('.ace-mc-2023yunqi-nav-pc-container-content-menu-loginBtn');
-
-// 监听登录按钮的点击事件
-loginBtn.addEventListener('click', function() {
-  // 显示登录弹窗
-  document.querySelector('.aliyun-login-component-wrapper').style.display = 'block';
-});
-
-  function hideLoginPopup() {
-    // 隐藏登录弹窗
-    document.querySelector('.aliyun-login-component-wrapper').style.display = 'none';
-  }
-  </script>
 
 </body>
 
